@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #3f83ff;
     color: white;
     text-align: center;
     padding: 50px 0;
@@ -26,6 +26,52 @@ nav a {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #333;
+    background-color: #3f83ff;
     color: white;
+}
+
+.about {
+    padding: 30px;
+    background-color: #3f83ff;
+    max-width: 900px;
+    margin: 20px auto;
+    color: white; /* Apply white font color to all text inside .about */
+}
+
+.about h2 {
+    font-size: 2em;
+    color: white; /* White text for h2 */
+    margin-bottom: 15px;
+}
+
+.about h3 {
+    color: white; /* Change h3 to white */
+    margin-top: 20px;
+}
+
+.about p {
+    color: white; /* Change paragraphs to white text */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: white; /* Ensure list items are white */
+}
+
+footer p {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #3f83ff;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
