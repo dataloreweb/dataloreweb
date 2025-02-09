@@ -307,3 +307,14 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+/* Add this to your style.css */
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px; /* Optional, for rounded corners */
+}
